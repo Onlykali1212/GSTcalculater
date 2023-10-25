@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gst calculater</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="nav">
+            <h3>This is GST Calculater</h3>
+        </div>
+
+
+        <div class="problam-content">
+            <div class="amount  disbox">
+                <label for=""id="top">Amount</label>
+                <div class="displayBox">
+                    <input type="number" name="" id="amount">
+                </div>
+            </div>
+
+            <div class="gstRate disbox">
+                <label for="">GST rate %</label>
+                <div class="displayBox">
+                    <input type="number" name="" id="present" class="present">
+                     <span class="present">%</span>
+                </div>
+            </div>
+                <label for="male"></label>
+                <div class="displayCheckBox">
+                    <input type="checkbox" name="male" id="include"class="thismgntrg">
+                    <span class="tiregerText thismgntrg">Include GST</span>
+                </div>
+                <div class="displayCheckBox">
+                    <input type="checkbox" name="male" id="exclude"class="thismgntrg">
+                    <span class="tiregerText thismgntrg">Exclude GST</span>
+                </div>
+
+                <div class="result">
+                    <div class="resultBox">
+                        <span>Amount of GST</span>
+                        <span class="logo">
+                            <span id="amountGst"></span>&#8377
+                        </span>
+                    </div>
+
+                    <div class="resultBox">
+                        <span>Main amount</span>
+                        <span class="logo">
+                        <span class="mainAmount"></span>&#8377
+                    </span>
+                    </div>
+                </div>
+            
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
